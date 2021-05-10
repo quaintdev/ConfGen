@@ -1,0 +1,49 @@
+[
+  {
+    "Type": "Text",
+    "Value": [],
+    "Hint": "",
+    "Label": "Desktop Entry",
+    "ID": "id_desktop"
+  },
+  {
+    "Type": "DropdownMenuButton",
+    "Label": "Type",
+    "Values": [
+      "Application",
+      "Link",
+      "Directory"
+    ],
+    "ID": "id_type"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Encoding",
+    "ID": "id_encoding"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Name",
+    "ID": "id_name"
+  },
+  {
+    "Type": "TextField",
+    "Label": "comment",
+    "ID": "id_comment"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Exec",
+    "ID": "id_exec"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Icon",
+    "ID": "id_icon"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Terminal",
+    "ID": "id_terminal"
+  }
+]

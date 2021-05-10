@@ -1,0 +1,88 @@
+[
+  {
+    "Type": "Text",
+    "Value": [],
+    "Label": "Unit Options",
+    "ID": "id_unit"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Description",
+    "Tooltip": "Set description for the service",
+    "ID": "id_description"
+  },
+  {
+    "Type": "TextField",
+    "Label": "After",
+    "Tooltip": "Specify units after which, this unit will be started",
+    "ID": "id_after"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Requires",
+    "Tooltip": "The units listed here are activated together with the unit. If any of the required units fail to start, the unit is not activated.",
+    "ID": "id_requires"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Wants",
+    "Tooltip": "If any of the listed units does not start successfully, it has no impact on the unit activation.",
+    "ID": "id_wants"
+  },
+  {
+    "Type": "Text",
+    "Label": "Service Options",
+    "ID": "id_service_options"
+  },
+  {
+    "Type": "DropdownMenuButton",
+    "Label": "Restart",
+    "Values": [
+      "no",
+      "on-success",
+      "on-failure",
+      "on-abnormal",
+      "always",
+      "simple"
+    ],
+    "ID": "id_restart"
+  },
+  {
+    "Type": "DropdownMenuButton",
+    "Label": "Type",
+    "Tooltip": "Configures the process start-up type for this service unit.",
+    "Values": [
+      "simple",
+      "exec",
+      "forking",
+      "oneshot",
+      "dbus",
+      "notify",
+      "idle"
+    ],
+    "ID": "id_type"
+  },
+  {
+    "Type": "TextField",
+    "Label": "ExecStart",
+    "Tooltip": "Commands with their arguments that are executed when this service is started.",
+    "ID": "id_execstart"
+  },
+  {
+    "Type": "TextField",
+    "Label": "Environment",
+    "ID": "id_environment"
+  },
+  {
+    "Type": "Text",
+    "Value": [],
+    "Hint": "",
+    "Label": "Install Options",
+    "ID": "id_install_options"
+  },
+  {
+    "Type": "TextField",
+    "Label": "WantedBy",
+    "ID": "id_wantedby"
+  }
+]
